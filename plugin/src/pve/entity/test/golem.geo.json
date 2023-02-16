@@ -1,0 +1,121 @@
+{
+	"format_version": "1.10.0",
+	"geometry.golem": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 7,
+		"visible_bounds_height": 11,
+		"visible_bounds_offset": [0, 0.5, 0],
+		"bones": [
+			{
+				"name": "arms",
+				"pivot": [13, 21, -1]
+			},
+			{
+				"name": "bone",
+				"parent": "arms",
+				"pivot": [17, 69, 1],
+				"cubes": [
+					{"origin": [17, 33, -1], "size": [5, 34, 4], "uv": [46, 26], "inflate": 2}
+				]
+			},
+			{
+				"name": "bone2",
+				"parent": "arms",
+				"pivot": [-17, 69, 2],
+				"cubes": [
+					{"origin": [-21, 34, 0], "size": [5, 33, 4], "uv": [46, 27], "inflate": 2}
+				]
+			},
+			{
+				"name": "head",
+				"pivot": [1, 66, -3],
+				"cubes": [
+					{"origin": [-2, 68, -6], "size": [5, 5, 5], "uv": [0, 54], "inflate": 3}
+				]
+			},
+			{
+				"name": "bone5",
+				"pivot": [3, 29, 3]
+			},
+			{
+				"name": "bone7",
+				"parent": "bone5",
+				"pivot": [1, 54, 1],
+				"cubes": [
+					{"origin": [-10, 69, -1], "size": [2, 14, 6], "uv": [0, 0], "inflate": 1},
+					{"origin": [9, 69, -1], "size": [2, 14, 6], "uv": [0, 0], "inflate": 1},
+					{"origin": [-6, 53, 1], "size": [13, 8, 2], "uv": [38, 15], "inflate": 8}
+				]
+			},
+			{
+				"name": "bone8",
+				"parent": "bone5",
+				"pivot": [0, 41, 0],
+				"cubes": [
+					{"origin": [-5, 38, 0], "size": [11, 6, 4], "uv": [0, 0], "inflate": 3}
+				]
+			},
+			{
+				"name": "bone6",
+				"parent": "bone5",
+				"pivot": [1, 29, 1],
+				"cubes": [
+					{"origin": [-6, 27, -2], "size": [13, 7, 8], "uv": [0, 0], "inflate": 5}
+				]
+			},
+			{
+				"name": "foot",
+				"pivot": [0, 0, 0]
+			},
+			{
+				"name": "bone3",
+				"parent": "foot",
+				"pivot": [7, 26, 0],
+				"cubes": [
+					{"origin": [5, 2, -1], "size": [4, 18, 5], "uv": [0, 0], "inflate": 2}
+				]
+			},
+			{
+				"name": "bone4",
+				"parent": "foot",
+				"pivot": [-6, 26, 0],
+				"cubes": [
+					{"origin": [-8, 2, -1], "size": [4, 18, 5], "uv": [0, 0], "inflate": 2}
+				]
+			},
+			{
+				"name": "bone9",
+				"pivot": [9, -63, -1],
+				"cubes": [
+					{"origin": [2, -65, -34], "size": [7, 45, 1], "uv": [21, 18], "inflate": 1},
+					{"origin": [-9, -63, -30], "size": [7, 29, 1], "uv": [28, 34], "inflate": 3},
+					{"origin": [10, -66, -34], "size": [8, 44, 4], "uv": [15, 16]},
+					{"origin": [18, -66, -30], "size": [5, 29, 5], "uv": [26, 30]},
+					{"origin": [20, -66, -25], "size": [8, 23, 8], "uv": [15, 33]},
+					{"origin": [-15, -63, -23], "size": [1, 27, 1], "uv": [37, 36], "inflate": 3},
+					{"origin": [-34, -63, 10], "size": [1, 27, 1], "uv": [37, 36], "inflate": 3},
+					{"origin": [-40, -65, -7], "size": [7, 45, 1], "uv": [21, 18], "inflate": 1},
+					{"origin": [-42, -63, -1], "size": [7, 29, 1], "uv": [28, 34], "inflate": 3},
+					{"origin": [-40, -66, -15], "size": [8, 44, 4], "uv": [15, 16]},
+					{"origin": [-14, -66, 25], "size": [5, 29, 5], "uv": [26, 30]},
+					{"origin": [-13, -66, 21], "size": [8, 23, 8], "uv": [15, 33]},
+					{"origin": [22, -65, 20], "size": [7, 45, 1], "uv": [21, 18], "inflate": 1},
+					{"origin": [12, -63, 24], "size": [7, 29, 1], "uv": [28, 34], "inflate": 3},
+					{"origin": [21, -66, -9], "size": [8, 44, 4], "uv": [15, 16]},
+					{"origin": [25, -66, 13], "size": [11, 44, 4], "uv": [15, 16]},
+					{"origin": [25, -66, -9], "size": [5, 29, 5], "uv": [26, 30]},
+					{"origin": [28, -66, 13], "size": [8, 23, 8], "uv": [15, 33]},
+					{"origin": [6, -63, 26], "size": [1, 27, 1], "uv": [37, 36], "inflate": 3},
+					{"origin": [-28, -63, 17], "size": [1, 27, 1], "uv": [37, 36], "inflate": 3},
+					{"origin": [-24, -65, 31], "size": [7, 45, 1], "uv": [21, 18], "inflate": 1},
+					{"origin": [-28, -63, 20], "size": [7, 29, 1], "uv": [28, 34], "inflate": 3},
+					{"origin": [-40, -66, -15], "size": [8, 44, 4], "uv": [15, 16]},
+					{"origin": [-36, -66, -19], "size": [5, 29, 5], "uv": [26, 30]},
+					{"origin": [-34, -66, -22], "size": [8, 23, 8], "uv": [15, 33]},
+					{"origin": [21, -66, -4], "size": [8, 23, 8], "uv": [0, 23]}
+				]
+			}
+		]
+	}
+}

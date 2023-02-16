@@ -1,0 +1,13 @@
+name: PvE
+main: pve\Main
+version: "7.0"
+api: 4.0.0
+
+extensions:
+  Core: ">=8.0"
+
+permissions:
+ guild:
+  default: op
+ pve:
+  default: op
